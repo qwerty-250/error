@@ -153,7 +153,10 @@ o	Alpha Testing will involve a controlled group of testers who will evaluate a n
 o	Beta Testing will expand access to a larger group of real users, allowing larger feedback collection and ensuring that the final product meets user expectations before its official release.
 These testing techniques should be able to identify any issues before the website is made available to all of its intended users. This allows time for last-minute changes to be made to both the functionality and user experience of the website, such as whether users find the color scheme appealing, find it easy to use, feel that it needs to be improved, etc.
 
+Design
+This document explains the Interface Designs from the Interface Design document and the reasoning behind them. It covers the layout of planned web pages, color choices, interactive elements, and how different features will function.
 
+Please note that all examples may change depending on the development progress. Some features might be slightly adjusted, while others could be removed entirely.
 
 
 
