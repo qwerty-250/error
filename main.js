@@ -133,6 +133,26 @@ Criteria:
 8 
 5. Pollen count adjust dynamically
 
+Test Strategy
+During development, testing will be structured into several key stages: Unit Testing, Integration Testing, System Testing, and User Acceptance Testing. Unit Testing will focus on validating individual features and components as they are developed. Integration Testing will ensure that multiple modules function correctly when combined. System Testing will then evaluate the overall performance, security, and stability of the entire solution. Finally, User Acceptance Testing (UAT) will confirm that the solution meets user expectations and business requirements before deployment.
+Testing will go all the way through the development process. To address problems as they arise, unit and integration testing will be conducted on a regular basis. System testing will examine the overall speed and functionality. Lastly, UAT will allow actual users to provide input to make sure the solution satisfies their requirements.
+Component Interrelation and Data Flow Analysis The testing approach will thoroughly examine how key components exchange data and depend on each other:
+•	Authentication → User Management: We'll verify user credentials properly populate the user context and that authentication failures are correctly handled to prevent unauthorized access.
+•	UI → Data Processing: Testing will ensure input validation properly filters data before it reaches processing modules, such as rejecting malformed email addresses during registration.
+•	Processing → Database: We'll verify processed data conforms to database requirements and constraints, including handling edge cases like duplicate username attempts.
+•	Database → Reporting: Testing will check that data retrieved from the database correctly flows into reporting functions, preventing misleading outputs.
+We'll test specific scenarios where incorrect data from one component impacts others, examining how validation failures may cause cascading errors through the system.
+
+Testing Methods
+A variety of testing methods will be employed to ensure comprehensive validation of the solution:
+•	White Box Testing will be used to analyze the internal structure and logic of the code. It will be applied during Unit and Integration Testing to verify that individual components handle inputs correctly and that interactions between features work as expected. This method is useful for identifying logical errors, improving code efficiency, and improving validation mechanisms. For example, testing an email validation function would involve submitting incorrect formats (e.g., multiple "@" symbols or nonexistent domains) to ensure they are correctly rejected.
+•	Black Box Testing will focus on evaluating the solution from a user’s perspective without access to the  code. This will be carried out to the later stages of Integration Testing, System Testing, and UAT. It ensures that valid inputs are accepted, error messages are informative, and the user experience is intuitive. This method will also help identify restrictive validation rules that may unintentionally reject valid inputs, such as a phone number field that doesn’t account for spaces.
+•	Exploratory Testing will allow testers to interact with the system easily, without predefined test cases, to identify unexpected issues or usability concerns. This will be particularly useful in System Testing, where testers can uncover edge cases, security vulnerabilities, and unexpected system behavior.
+•	Alpha and Beta Testing will be conducted in the final stages of testing before deployment:
+o	Alpha Testing will involve a controlled group of testers who will evaluate a non-live version of the solution, identifying potential bugs and usability issues.
+o	Beta Testing will expand access to a larger group of real users, allowing larger feedback collection and ensuring that the final product meets user expectations before its official release.
+These testing techniques should be able to identify any issues before the website is made available to all of its intended users. This allows time for last-minute changes to be made to both the functionality and user experience of the website, such as whether users find the color scheme appealing, find it easy to use, feel that it needs to be improved, etc.
+
 
 
 
