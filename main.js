@@ -159,7 +159,55 @@ This document explains the Interface Designs from the Interface Design document 
 Please note that all examples may change depending on the development progress. Some features might be slightly adjusted, while others could be removed entirely.
 
 
+CARBON 
 
+A carbon footprint calculator estimates CO₂ emissions based on user inputs like car usage, electricity consumption, and diet. It applies emission factors to calculate total annual impact, helping users reduce their footprint.
+[9:58 PM]
+For your wireframe, you can label the input fields like this:
+
+Car Usage (miles per week) – Enter miles driven per week
+Electricity Consumption (kWh per month) – Enter monthly electricity usage
+Diet Type – (Dropdown: Vegan, Vegetarian, Meat-based)
+
+Button: Calculate Carbon Footprint
+
+Tino — Today at 10:04 PM
+Appendix
+Relevant Regulations, Laws, and Standards for Green Energy & Technology
+General Data and Consumer Protection Laws
+Data Protection Act (2018) (UK GDPR) – Ensures that any customer data (e.g., energy usage data, personal details for subscriptions, or purchasing history) is:
+
+Used fairly, lawfully, and transparently.
+Stored securely and not kept longer than necessary.
+Processed with consent, especially if sensitive data (e.g., energy consumption habits) is involved.
+Consumer Rights Act (2015) – Protects customers who purchase renewable energy products by ensuring:
+
+Clear, fair terms and conditions.
+Right to refunds or replacements if products (solar panels, EV chargers, etc.) are faulty.
+Energy and Environmental Regulations
+Renewable Energy Directive (EU & UK equivalent) – Encourages the use of green energy technologies and provides legal guidelines for:
+
+Certification of solar panel efficiency and energy ratings.
+Minimum standards for electric vehicle (EV) infrastructure.
+The Energy Act (UK, 2013 & updates) – Covers:
+
+Support for clean energy and sustainability initiatives.
+Rules for selling and installing solar panels, wind turbines, and electric vehicle (EV) charging stations.
+ISO 50001 (Energy Management Systems Standard) – An international standard for organizations to manage their energy performance efficiently.
+
+Web and Accessibility Standards
+Web Content Accessibility Guidelines (WCAG 2.1) – Ensures that Rosla Energy’s website and online services (e.g., solar panel monitoring apps, EV subscription platforms) are accessible to users with disabilities.
+[10:04 PM]
+W3C Standards – Provides guidelines for structured, secure, and accessible web content for green energy users.
+
+Cybersecurity and Digital Infrastructure
+NIS Regulations (Network and Information Systems Regulations 2018) – Protects against cyber threats in critical industries, including energy providers and smart grid solutions.
+ISO/IEC 27001 (Information Security Management System) – Ensures secure handling of customer energy data (e.g., solar panel energy output, battery storage data, EV usage tracking).
+
+Tino — Today at 10:27 PM
+ADD TABLE OF CONTENTS
+[10:29 PM]
+The reason why the carbon is not saved in the data base because I think that the users will probably change..  . For this reason I choose to go this way but this is subject to change in the development stage.
 
 
 
