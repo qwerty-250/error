@@ -155,5 +155,10 @@ could include a tick box or alert system to have greater user interactivity with
 Screen shots of the whole website 
 
 
+
+
+This carbon footprint calculator estimates your yearly CO2 emissions based on driving, electricity usage, and diet. It calculates car emissions by multiplying your weekly mileage by 52 (weeks in a year) and then by **0.411 kg of CO2 per mile**. For electricity, it multiplies your monthly consumption by 12 (months in a year) and then by **0.233 kg of CO2 per kWh**. It also adds a fixed amount of CO2 based on your diet: **1,500 kg** for vegans, **2,000 kg** for vegetarians, and **3,300 kg** for meat-based diets. Finally, it combines all these values to estimate your total annual carbon footprint.
+
+
 `)
 }
