@@ -58,5 +58,102 @@ future imprv:  Changes from the initial design and future improvements such as J
 
 
 
+This prototype was developed using an Agile approach. Development was separated into sprints 
+where each major development milestone was saved as a new version. The development hurdles 
+and successes in each version were then used to inform the development process in the following 
+sprint, which would result in another new version. There are a total of 4 versions of this prototype, 
+which are specified below. 
+All content that features on this prototype including external links, images, embedded videos etc are 
+placeholder and not final. Some of this content may require licencing if used for the final product, or 
+could be replaced with Health Advice Group’s own content. 
+
+Do Functional Requirements And non functional requirements: For example on the last version the validation is not functional. Or responsive design
+Do a change log with some changes
+Explain why are you using local storage for the carbon calculator and also the daily energy 
+
+
+Critical Evaluation and Future Improvements
+Project Overview
+The Rolsa Technologies prototype successfully achieves its core functional requirements, providing a comprehensive platform for green energy tracking and user engagement. While the current version offers a solid foundation, several areas present opportunities for significant enhancement and innovation.
+Feature Improvements and Future Development
+1. Carbon Footprint Calculator
+Current State:
+
+Basic input-driven CO2 consumption calculation
+Text-based output with emoji annotations
+Simple user interface
+
+Proposed Improvements:
+The Carbon Footprint Calculator represents a prime opportunity for transformative enhancement. By implementing advanced data visualization techniques, the feature can evolve from a simple calculation tool to an interactive insights platform. The proposed improvements focus on creating comprehensive graphical representations that not only display CO2 consumption but also provide contextual understanding of environmental impact.
+Interactive charts will allow users to explore their carbon footprint from multiple perspectives, showing trends, comparisons, and potential improvement areas. Personalized insights will transform raw data into actionable recommendations, empowering users to make more environmentally conscious decisions. The goal is to move beyond mere number reporting to creating a meaningful, engaging user experience that motivates sustainable behavior.
+Visualization Mockup:
+[INSERT MOCKUP OF PROPOSED CARBON FOOTPRINT CHARTS]
+2. Energy Tracker
+Current State:
+
+Daily energy consumption tracking
+Basic logging of energy usage
+
+Proposed Improvements:
+The Energy Tracker's future development centers on providing comprehensive time-based tracking that offers deeper insights into energy consumption patterns. By expanding from daily tracking to weekly, monthly, and yearly comparisons, users will gain a more holistic understanding of their energy usage. Advanced analytics will introduce intelligent pattern recognition, identifying trends and potential areas for energy conservation.
+The enhanced tracker will go beyond simple data logging, transforming into a proactive tool for sustainable living. Personalized recommendations will help users understand their energy consumption context, suggesting practical steps to reduce their environmental footprint. Visualization will play a crucial role, making complex energy data intuitive and actionable.
+Visualization Concept:
+[INSERT MOCKUP OF WEEKLY/MONTHLY ENERGY CONSUMPTION CHARTS]
+3. Appointments Management
+Current State:
+
+Basic appointment input and storage
+Simple list display
+Manual deletion functionality
+
+Proposed Improvements:
+The Appointments Management system will evolve into an intelligent lifecycle management platform. By introducing automated notification systems and advanced tracking mechanisms, the feature will become more than just a simple list. Automatic expiration alerts and intelligent deletion workflows will streamline user interactions, reducing manual management efforts.
+The proposed system will incorporate a sophisticated confirmation workflow, allowing seamless tracking of appointment statuses. Users will receive timely notifications about upcoming or expired appointments, creating a more proactive and user-friendly experience. The goal is to transform appointment management from a passive recording tool to an active, helpful assistant.
+User Flow Diagram:
+[INSERT DIAGRAM OF PROPOSED APPOINTMENT MANAGEMENT WORKFLOW]
+4. Products Page
+Current State:
+
+Static list of green energy products
+Placeholder external links
+Basic product information display
+
+Proposed Improvements:
+The Products Page will transition from a static information display to a dynamic, market-driven content platform. By implementing an intelligent research algorithm, the page will automatically update with the latest green energy product trends. This approach ensures that users always have access to current, relevant information about innovative green energy solutions.
+Enhanced product presentations will provide comprehensive insights, moving beyond basic descriptions to offer comparative analyses and real-time market information. The goal is to create an educational resource that not only informs but also guides users in making sustainable technology choices.
+Product Page Concept:
+[INSERT MOCKUP OF ENHANCED PRODUCT INFORMATION PAGE]
+5. Authentication System
+Current State:
+
+Basic login/registration functionality
+Standard validation techniques
+Simple error handling
+
+Proposed Improvements:
+The authentication system will be reimagined with a focus on advanced security and user experience. Implementing JSON Web Token (JWT) authentication will provide a more robust, dynamic security approach. The new system will go beyond traditional login mechanisms, incorporating enhanced multi-factor authentication and comprehensive security protocols.
+Improved error handling will transform technical security measures into user-friendly interactions. Detailed, informative error messages will guide users, while backend logging will provide robust security monitoring. The authentication system will become a seamless, intelligent gateway that protects user data while maintaining an intuitive user experience.
+
+Additional Elements 
+There are some features that are not Functional or Non-functional requirements that were explored 
+during development but did not have enough time to fully realise. This includes: - 
+Confirm Password – shown in designs and in earlier prototype versions, but did not function. 
+Was removed as it was no longer necessary. - - - - 
+Footer – design choice that was left out due to time constraints. 
+Register feedback – the login page featured feedback such as ‘currently logged in as’, the 
+register page does not. 
+W3C Validation – all pages were checked in the W3C validator, but the Weather and Advice 
+pages had their CSS styles affected when declaring the DOCTYPE. As a result, these are the 
+only pages without these declarations. 
+Terms and Conditions and cookie approval – whilst cookies are not collected on this site, I 
+did make a mock-up terms and conditions notice on the register page. With more time, this 
+could include a tick box or alert system to have greater user interactivity with these features
+
+
+
+
+Screen shots of the whole website 
+
+
 `)
 }
