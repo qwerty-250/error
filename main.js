@@ -56,7 +56,9 @@ atsets: Link What is it being used for? Date exampl
 
 future imprv:  Changes from the initial design and future improvements such as JWT token authentication.
 
-
+All content that features on this prototype including external links, images, embedded videos etc are 
+placeholder and not final. Some of this content may require licencing if used for the final product, or 
+could be replaced with Health Advice Group’s own content. 
 
 This prototype was developed using an Agile approach. Development was separated into sprints 
 where each major development milestone was saved as a new version. The development hurdles 
