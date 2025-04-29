@@ -1,177 +1,319 @@
 
 function prop(){
   navigator.clipboard.writeText(`
+Prototype Demonstration, Feedback Plan,  Non-Technical Survey, Technical Survey,  Feedback Evaluation
+Task 3a: Feedback Plan
+Introduction
+For my feedback collection, I will be using two different surveys, one aimed at technical users (people with programming knowledge) and one aimed at non-technical users (general users).
+The advantage of this approach is that it allows me to gather two perspectives: feedback from regular users about usability and design, and more detailed technical feedback from programmers regarding functionality and code quality.
+Both surveys will cover similar topics regarding the web app's user experience and design, but the technical survey will include an additional section focused on the program's internal functionality, efficiency, and technical improvements.
+The technical respondents will also be given supervised access to the source code and the web app itself, so they can suggest improvements and highlight any issues more effectively.
 
-Rolsa Technologies Website Prototype Commentary
-Version 1 – PHP, CSS, and Basic JavaScript
-In the first version of the website, I focused on building the layout and core components using PHP and CSS. My goal was to create a clean and modular code structure by breaking it into smaller, reusable chunks, making the project easier to manage, debug, and scale.
-The project structure features dedicated folders for reusable components like the navbar and footer to ensure consistency across all pages. Each page has its own CSS file stored in a dedicated folder, while a main CSS file handles general styling rules, including the color palette for light and dark modes. I included basic JavaScript functionality that dynamically generates content on the Products page by pulling data from a JSON file containing details about popular green energy products.
-Rolsa Technologies Website Prototype Commentary
-Version 1 – PHP, CSS, and Basic Layout Structure
-In the first version of the website, I focused on building the layout and core components using PHP and CSS. My goal was to create a clean and modular code structure by breaking it into smaller, reusable chunks, making the project easier to manage, debug, and scale.
-The project structure features dedicated folders for reusable components like the navbar and footer to ensure consistency across all pages. Each page has its own CSS file stored in a dedicated folder, while a main CSS file handles general styling rules, including the color palette for light and dark modes. I included basic JavaScript functionality that dynamically generates content on the Products page by pulling data from a JSON file containing details about popular green energy products.
-All pages are fully responsive, ensuring that the website adapts smoothly to different screen sizes, offering optimal user experience on both desktop and mobile devices.
-Key Features Developed:
-•	Home page with welcome message and introductory information
-•	Products page with layout for displaying green energy products
-•	Appointments page with layout for form and appointment list (non-functional in this version)
-•	Advice page offering tips on reducing carbon footprints
-•	Account page with layout for Carbon Footprint Calculator and Energy Tracker (non-functional in this version)
-•	Functional navbar and footer displayed consistently across all pages
-•	Responsive design with modular CSS structure
-Version 2 – Enhanced with JavaScript Features
-In the second iteration, I introduced JavaScript functionality to improve the website's interactivity and user experience.
-The Carbon Footprint Calculator on the Account page was made functional, allowing users to input their daily energy consumption to calculate their carbon footprint. This data is saved in localStorage so users can revisit the website without losing their progress. I also implemented a functional Daily Energy Tracker that monitors the user's energy usage and resets automatically after 24 hours.
-A dark mode toggle was added to the navbar, with the website remembering the user's theme preference using localStorage. The Appointments page was improved with a functional form for scheduling appointments and a dynamically updated list displaying all appointments. Users can delete expired or unwanted appointments using a delete button.
-I also added increase and decrease functionality for adjusting values in the calculator and tracker, enhancing user control over the input data.
-Key Enhancements:
-•	LocalStorage integration for data persistence
-•	Functional Carbon Footprint Calculator and Energy Tracker
-•	Dynamic appointment scheduling with a delete option
-•	Dark mode toggle with saved preferences
-•	Increase/decrease functionality for numeric inputs
-Version 3 – PHP-Driven Authentication and User-Specific Content
-In the final version, I integrated PHP logic to add essential authentication features and display content dynamically based on the user's login status.
-I implemented a comprehensive user authentication system with login, registration, and logout functionality handled by PHP. This logic is structured in a dedicated "Registration_Auth" folder containing login.php, register.php, and logout.php to keep the authentication code modular and organized. SQL injection prevention techniques ensure security during data handling, while error handling and validation check for missing or incorrect inputs.
-The Appointments page now displays a message prompting users to log in if they're not authenticated. Once logged in, they can view, schedule, and delete appointments. The Account page displays user-specific information including name, email, and stored energy usage data, with direct access to the now-functional Carbon Footprint Calculator and Daily Energy Tracker, increase and decrease size buttons and also the logout button.
-Nevertheless, basic sanitization was added to protect against vulnerabilities.
-
-
-Key Final Features:
-•	Full authentication system with login, registration, and logout
-•	User-specific content displayed on the Account and Appointments pages
-•	SQL injection protection and error handling
-•	Modular code structure with dedicated folders including "Registration_Auth"
-Final Prototype Overview
-The final version offers a fully functional and interactive experience. The Home Page welcomes users with a brief overview of Rolsa Technologies. The Appointments Page displays available appointments, allows scheduling and deletion, and prompts users to log in if not authenticated. The Advice Page offers tips on reducing carbon footprints with relevant images ,external links and videos. The Products Page lists green energy products with details and "Learn More" links. The Account Page displays user information and contains the Calculator and Tracker tools along with the decrease and increase size buttons , and the logout button.
-The entire website features a dark mode toggle that saves user preferences and uses a modular code structure with separated folders for components, scripts, and authentication logic. PHP handles secure user authentication while JavaScript powers dynamic features, and localStorage ensures data persistence across sessions
-
-Future Improvements:
-•	User Profiles with editable information and preferences
-•	Data Visualization with charts for energy usage data
-•	API Integration for real-time green energy data
-•	Advanced Accessibility Features including keyboard navigation
+User Demonstrations
+To make sure all users understand how to use the web app properly, I will create a set of clear, simple demonstrations showing how to perform key actions.
+This is important because it ensures that all users know how to use the main features, leading to more accurate and useful feedback instead of confusion or misunderstandings.
+For example:
+How to login:
+1.Go to the "Account" page.
+2.Enter the requested data.
+3.Submit the data.
+4.You should be directed to your Account page.
+These demonstration materials will help users understand how the app works before completing the survey, improving the quality of their feedback.
 
 
 
-est: Description of 
-the test 
-Test data to be 
-used (if 
-required) 
-Expected outcome Actual outcome Comments and intended 
-actions 
-Solution(if there was an error)
+Questionnaires
+The surveys will be created using Microsoft Forms because it is a simple, efficient tool that offers useful features for creating forms, like branching questions and automatic graphs.
+The survey will be divided into two versions:
+Non-Technical User Survey: focusing on UI, UX, and the functionality of each page.
+Technical User Survey: covering the same as the Non-Technical but also deeper technical aspects such as code quality, variable naming, structure, and error handling.
+Both surveys will collect quantitative and qualitative feedback.
+Respondents
+The respondents will not need to provide personal information such as their name or email.
+This helps build trust and encourages more honest responses. (expand this section)
+Technical Section
+The technical version of the survey will include specific questions about the functionality, efficiency, and readability of the code.
+Examples of technical questions include:
+Were the naming conventions (variables, functions) clear and easy to understand?
+Were there any technical errors? If yes, what were they?
+How could the code be improved for better scalability or readability?
+Supervised access to the project and its source code will be given to technical users to help them provide more detailed feedback. 
+Stages (expand stages just a bit)
+Stage 1: Create instruction documents (user demonstrations) to guide users through the main functions of the web app.
+Stage 2: Create two Microsoft Forms surveys (one for technical users, one for non-technical users).
+Stage 3: Collect feedback using the surveys, gathering both quantitative and qualitative data. 
+Stage 4: Analyze the feedback, summarize it in a Word document using graphs (for quantitative data) and written evaluation (for qualitative insights).
+Stage 5: Use the findings to plan and document future improvements to the web app.
+Question Structure
+The survey questions will be organized based on the different sections or pages of the web app. 
+-UI Questions (Accessibility, Readability, Design Aesthetics)
+-UX Questions (Navigation, Functionality, User Satisfaction)
+-Account page
+-Advice page
+-Login and Registration page
+-Appointments page
+-Products page
+-TECHNICAL Section for technical users 
+Example of a question structure:
+UX Question:
+On a scale from 1 to 10, how easy was it to navigate to the Weather page?
+For the technical survey, additional questions like:
+Were you able to understand the purpose of the functions by reading their names?
+Did the comments in the code help you understand the structure?
+Outcome
+Through obtaining input from both technical and non-technical users, I will be able to pinpoint a variety of enhancements, ranging from improving the user interface and user experience to streamlining the functionality and underlying code structure. This two-pronged feedback strategy will guarantee that the web application is thoroughly assessed from the viewpoints of both developers and users, enabling me to make informed, focused changes that address both technical quality and usability. The outcomes of this feedback procedure will be crucial for improving the project's final draft.
 
-atsets: Link What is it being used for? Date exampl
-
-future imprv:  Changes from the initial design and future improvements such as JWT token authentication.
-
-All content that features on this prototype including external links, images, embedded videos etc are 
-placeholder and not final. Some of this content may require licencing if used for the final product, or 
-could be replaced with Health Advice Group’s own content. 
-
-This prototype was developed using an Agile approach. Development was separated into sprints 
-where each major development milestone was saved as a new version. The development hurdles 
-and successes in each version were then used to inform the development process in the following 
-sprint, which would result in another new version. There are a total of 4 versions of this prototype, 
-which are specified below. 
-All content that features on this prototype including external links, images, embedded videos etc are 
-placeholder and not final. Some of this content may require licencing if used for the final product, or 
-could be replaced with Health Advice Group’s own content. 
-
-Do Functional Requirements And non functional requirements: For example on the last version the validation is not functional. Or responsive design
-Do a change log with some changes
-Explain why are you using local storage for the carbon calculator and also the daily energy 
 
 
-Critical Evaluation and Future Improvements
-Project Overview
-The Rolsa Technologies prototype successfully achieves its core functional requirements, providing a comprehensive platform for green energy tracking and user engagement. While the current version offers a solid foundation, several areas present opportunities for significant enhancement and innovation.
-Feature Improvements and Future Development
-1. Carbon Footprint Calculator
-Current State:
-
-Basic input-driven CO2 consumption calculation
-Text-based output with emoji annotations
-Simple user interface
-
-Proposed Improvements:
-The Carbon Footprint Calculator.
-By implementing advanced data visualization techniques, the feature can evolve from a simple calculation tool to an interactive insights platform. The proposed improvements focus on creating comprehensive graphical representations that not only display CO2 consumption but also provides contextuasl understanding of environmental impact.
-Interactive charts will allow users to explore their carbon footprint from multiple perspectives, showing trends, comparisons, and potential improvement areas. Personalized insights will transform raw data into  recommendations,promoting users to make more environmentally conscious decisions. The goal is to move beyond simple number reporting to creating a meaningful, engaging user experience that motivates sustainable behavior.
-Visualization Mockup:
-[INSERT MOCKUP OF PROPOSED CARBON FOOTPRINT CHARTS]
-2. Energy Tracker
-Current State:
-
-Daily energy consumption tracking
-Basic logging of energy usage
-
-Proposed Improvements:
-The Energy Tracker's future development focuses on providing comprehensive time-based tracking that offers deeper insights into energy consumption patterns. By expanding from daily tracking to weekly, monthly, and yearly comparisons, users will gain a more  understanding of their energy usage. Advanced analytics will introduce intelligent pattern recognition, identifying trends and potential areas for energy conservation.
-The enhanced tracker will go beyond simple data logging, transforming into a proactive tool for sustainable living. Personalized recommendations will help users understand their energy consumption context, suggesting practical steps to reduce their environmental footprint. Visualization will play a crucial role, making complex energy data  actionable.
-Visualization Concept:
-[INSERT MOCKUP OF WEEKLY/MONTHLY ENERGY CONSUMPTION CHARTS]
-3. Appointments Management
-Current State:
-
-Basic appointment input and storage
-Simple list display
-Manual deletion functionality
-
-Proposed Improvements:
-The Appointments Management system will evolve into an intelligent management platform. By introducing automated notification systems and advanced tracking mechanisms, the feature will become more than just a simple list. Automatic expiration alerts and intelligent deletion logics will enhance  user interactions, reducing manual management efforts.
-The proposed system will incorporate a complex confirmation workflow, allowing simple tracking of appointment statuses. Users will receive timely notifications about upcoming or expired appointments, creating a more proactive and user-friendly experience. The goal is to transform appointment management from a passive recording tool to an active, helpful assistant.
-User Flow Diagram:
-[INSERT DIAGRAM OF PROPOSED APPOINTMENT MANAGEMENT WORKFLOW]
-4. Products Page
-Current State:
-
-Static list of green energy products
-Placeholder external links
-Basic product information display
-
-Proposed Improvements:
-The Products Page will transition from a static information display to a dynamic, market-driven content platform. By implementing an intelligent research algorithm, the page will automatically update with the latest green energy product trends. This approach ensures that users always have access to current, relevant information about innovative green energy solutions.
-Enhanced product presentations will provide comprehensive insights, moving beyond basic descriptions to offer comparative analyses and real-time market information. The goal is to create an educational resource that not only informs but also guides users in making sustainable technology choices.
-Product Page Concept:
-[INSERT MOCKUP OF ENHANCED PRODUCT INFORMATION PAGE]
-5. Authentication System
-Current State:
-
-Basic login/registration functionality
-Standard validation techniques
-Simple error handling
-
-Proposed Improvements:
-The authentication system will be reimagined with a focus on advanced security and user experience. Implementing JSON Web Token (JWT) authentication will provide a more robust, dynamic security approach. The new system will go beyond traditional login mechanisms, incorporating enhanced multi-factor authentication and comprehensive security protocols.
-Improved error handling will transform technical security measures into user-friendly interactions. Detailed, informative error messages will guide users, while backend logging will provide robust security monitoring. The authentication system will become a seamless, intelligent gateway that protects user data while maintaining an intuitive user experience.
-
-Additional Elements 
-There are some features that are not Functional or Non-functional requirements that were explored 
-during development but did not have enough time to fully realise. This includes: - 
-Confirm Password – shown in designs and in earlier prototype versions, but did not function. 
-Was removed as it was no longer necessary. - - - - 
-Footer – design choice that was left out due to time constraints. 
-Register feedback – the login page featured feedback such as ‘currently logged in as’, the 
-register page does not. 
-W3C Validation – all pages were checked in the W3C validator, but the Weather and Advice 
-pages had their CSS styles affected when declaring the DOCTYPE. As a result, these are the 
-only pages without these declarations. 
-Terms and Conditions and cookie approval – whilst cookies are not collected on this site, I 
-did make a mock-up terms and conditions notice on the register page. With more time, this 
-could include a tick box or alert system to have greater user interactivity with these features
+MAYBE ADD SOME IMAGES TO THE GUIDE
+Introduction
+This document will guide you through how to use each page of the Rolsa Technologies web app in preparation for completing the feedback questionnaire. Please follow the instructions carefully so that you can experience all the features properly. By doing so, you’ll help provide more accurate and useful feedback later.
+________________________________________
+Home Page
+The Home Page is the first page you see when you open the website. It provides a brief introduction to Rolsa Technologies. On this page, you’ll see a representative image that symbolizes the company’s focus on green energy. There is also a "Learn More" link that will redirect you to another page with more detailed information about Rolsa Technologies. Additionally, a footer at the bottom of the page contains the company’s contact information. Please take a moment to look around the page and click the "Learn More" link to see where it leads.
+________________________________________
+Advice Page
+The Advice Page is designed to offer useful tips and suggestions on how to reduce your carbon footprint. On this page, you will find several paragraphs outlining practical actions you can take to reduce your environmental impact. Additionally, there is a link that will redirect you to another page with even more information on how to further reduce your carbon footprint. You will also find a video embedded on the page, which will take you to a video with additional guidance on sustainability and green energy practices. Please explore the tips, follow the link to the further reduction guide, and watch the video to gain a more comprehensive understanding of carbon footprint reduction strategies.
+________________________________________
+Appointments Page
+The Appointments Page allows users to schedule an appointment by filling out a simple form. This form asks for basic information such as your name, date, and reason for the appointment. Once you submit the form, the appointment will be added to a list that appears on the right-hand side of the screen. Here, you can view all your scheduled appointments. If you no longer need an appointment, you can delete it by clicking the trash can icon next to it. Please try submitting a test appointment and see how it appears on the right-hand side of the screen. If the appointment is no longer needed, try deleting it. Note: You must be logged in to access this page.
+________________________________________
+Products Page
+The Products Page showcases several green energy products that are available. Here, you will find popular green energy products, each accompanied by a brief description. There is also a link that will take you to an external website with even more information about green energy products. Please explore the products listed on this page and click the external link to learn more.
+________________________________________
+Account Page
+The Account Page provides personal information and useful tools. Upon visiting this page, you will see your username and email to confirm you are logged into the correct account. Additionally, there is an Energy Tracker form where you can record your daily energy usage in KWH, with examples to help you fill it out. There is also a Carbon Footprint Calculator that allows you to calculate your carbon footprint, and like the Energy Tracker, it includes helpful examples.
+At the bottom of the page, you will find three important buttons: one to increase the font size, one to decrease it, and a Log Out button. The font size buttons allow you to adjust the website’s text for easier reading. Additionally, there is a link to the Advice Page where you can view helpful tips on reducing your carbon footprint. On this page, you will find various suggestions to make your daily activities more eco-friendly. There is also a link to an external page with additional information on how to reduce your carbon footprint and live more sustainably. Lastly, you will find a video on the page that offers further guidance on how to reduce your environmental impact. Please explore these links and video to learn more about reducing your carbon footprint.
+________________________________________
+Navigation Bar (Navbar)
+At the top of the website, there is a Navigation Bar (navbar) available on every page. This navbar contains a clickable Rolsa Technologies logo, which will bring you back to the Home Page. It also includes links to the Home, Advice, Appointments, Products, and Account pages. Additionally, there is a Dark Mode button, which you can click to change the website's appearance to a darker color scheme. This theme will apply across all pages on the website. Please click through the navbar links to explore different pages and try the Dark Mode button.
+________________________________________
+Registration and Login Pages
+To fully access features like appointments and the account page, you must be logged in. If you don’t have an account, go to the Registration page and fill out the form carefully. If you make any mistakes, an alert will pop up explaining what needs to be fixed. After registering, go to the Login page, enter your details, and log in. Again, if there’s an error, an alert will pop up telling you what went wrong. Once logged in, you will be able to access the Appointments and Account pages. Please make sure you are logged in so that you can use all of the website's features.
 
 
 
 
-Screen shots of the whole website 
+Demo 
+This document visualises the answers to the questionnaires, and details what can be taken from the responses that users gave. The purpose of this is to understand what worked and didn’t work with the prototype, to help later evaluate the solution that has been developed. This is a link to the original Microsoft Forms Survey, where all the answers can be shown:
+---
+---
+Table of contents:
+---
+
+Notes:
+I have made new charts and graphs (example: pie charts that contain all of the answers from both surveys on that specific question) to combine the responses from the technical and non-technical surveys, even though Microsoft Forms provides for the construction of its own. Responses that are identical have been grouped to save time and space. Nevertheless, I feel like this approach provides more insight and more meaningful data then the charts from Microsoft Forms that can be a bit vague for specific kind of questions.
+(correct this gram and logic)
+
+
+Add somewhere the questions of how could you improve and actually add it to the table of contents;
+Some observations notes , for each respondendt:
+de tipu 
+Respondent whatever
+Pain points~ Description
+The issue area-the description of his feedback
+
+Conclusion about observations:
+Conclusion:
+Explain each page section mentioned in the feedback form , and explain the feedback you got back from it 
+
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                           -------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+ALSO MAYHBE CHANGE THE TYPE OF QUESTIONS SOMEWHERE
+Section 1 – User Experience 
+1.	On a scale from 1–10, how would you rate the overall user experience of the Prototype?
+(1–10)
+2.	Was it easy to locate the information you were looking for?
+(Yes/No)
+3.	Did the website properly adjust to your device’s screen size?
+(Yes/No)
+4.	Was the Prototype stable during your interactions?
+(Yes/No)
+5.	Do you have any suggestions or feedback regarding the points listed above?
+(Typed Answer)
+________________________________________
+Section 2 – User Interface
+8.	Did you find the navigation bar easy to use?
+(Yes/No)
+9.	Overall, how would you rate the User Interface of the Prototype?
+(1–10)
+10.	Was the font readable throughout the Prototype?
+(Yes/No)
+11.	Were the buttons and interactive elements easy to recognize and responsive?
+(Yes/No)
+12.	Any other suggestions regarding the User Interface?
+(Typed Answer)
+________________________________________
 
 
 
 
-This carbon footprint calculator estimates your yearly CO2 emissions based on driving, electricity usage, and diet. It calculates car emissions by multiplying your weekly mileage by 52 (weeks in a year) and then by **0.411 kg of CO2 per mile**. For electricity, it multiplies your monthly consumption by 12 (months in a year) and then by **0.233 kg of CO2 per kWh**. It also adds a fixed amount of CO2 based on your diet: **1,500 kg** for vegans, **2,000 kg** for vegetarians, and **3,300 kg** for meat-based diets. Finally, it combines all these values to estimate your total annual carbon footprint.
+Section 3 – Home Page
+14.	On a scale from 1–10, how would you rate the Home Page?
+(1–10)
+15.	Was it helpful to see the company's contact information in the footer?
+(Yes/No)
+16.	What improvements, if any, would you suggest for the Home Page?
+(Typed Answer)
+________________________________________
+Section 4 – Appointments Page
+17.	On a scale from 1–10, how would you rate the Appointments Page?
+(1–10)
+18.	Does the design clearly communicate the purpose of the page?
+(Yes/No)
+19.	Were the appointment form and list easy to understand and use?
+(Yes/No)
+20.	Were the error alerts helpful when filling out the appointment form?
+(Yes/No)
+21.	Was it useful being able to view and delete appointments in the list?
+(Yes/No)
+22.	What improvements, if any, would you suggest for the Appointments Page?
+(Typed Answer)
+________________________________________
+Section 5 – Products Page
+23.	On a scale from 1–10, how would you rate the Products Page?
+(1–10)
+24.	Were the article topics relevant to the Products Page?
+(Yes/No)
+25.	Did you find the additional links provided helpful?
+(Yes/No)
+26.	What improvements, if any, would you suggest for the Products Page?
+(Typed Answer)
+________________________________________
+Section 6 – Login/Register Pages
+28.	On a scale from 1–10, how would you rate the Login Page?
+(1–10)
+29.	On a scale from 1–10, how would you rate the Register Page?
+(1–10)
+30.	When registering or logging in, was it clear which details you needed to enter?
+(Yes/No)
+31.	Were the error alerts helpful during registration or login?
+(Yes/No)
+32.	What improvements, if any, would you suggest for the Login and Register Pages?
+(Typed Answer)
+________________________________________
+Section 7 – Account Page
+33.	On a scale from 1–10, how would you rate the Account Page?
+(1–10)
+34.	On a scale from 1–10, how would you rate the Energy Tracker feature?
+(1–10)
+35.	On a scale from 1–10, how would you rate the Carbon Footprint Calculator feature?
+(1–10)
+36.	Did you find the accessibility options and the logout feature helpful?
+(Yes/No)
+37.	Did you find the information from the Carbon Footprint Calculator and Energy Tracker helpful?
+(Yes/No)
+38.	What improvements, if any, would you suggest for the Account Page?
+(Typed Answer)
+________________________________________
+Section 8 – Advice Page
+40.	On a scale from 1–10, how would you rate the Advice Page?
+(1–10)
+41.	Do you think users will find the information on the Advice Page helpful once fully completed?
+(Yes/No)
+42.	Are the link and embedded video working correctly and helpful?
+(Multiple Choice)
+43.	What improvements, if any, would you suggest for the Advice Page?
+(Typed Answer)
+________________________________________
+Section 9 – Technical Questions (Technical Review Only)
+45.	On a scale from 1–10, how would you rate the quality of the code commenting?
+(1–10)
+46.	Based on the comments, could a user understand what each section of the code does?
+(Yes/No)
+47.	On a scale from 1–10, how would you rate the security measures for handling user data?
+(1–10)
+48.	What improvements would you suggest for the security features, if any?
+(Typed Answer)
+49.	How would you rate the validation rules for the Register Page?
+(1–10)
+50.	How would you rate the validation rules for the Login Page?
+(1–10)
+51.	How would you rate the validation rules of the Register Form?
+(1–10)
+52.	If multiple programmers were working on this project, do you think the code is structured clearly enough for others to understand?
+(Yes/No)
+53.	Do you think the way the database is set up and the data added are efficient enough for a prototype?
+(Yes/No)
+54.	Is the codebase scalable from the point it’s currently at, or would it need major changes to scale to a larger project?
+(Typed Answer)
+55.	Do you think the programming languages and technologies used are sufficient for scaling? Or would you suggest using different frameworks or technologies?
+(Typed Answer)
+56.	Are there any validation rules you think are missing?
+(Typed Answer)
+57.	Are the naming conventions used appropriate?
+(yes/no)
+58.	Finally, is there anything else you would add or suggest for improving the project overall?
+(Typed Answer)
+
+
+Section 1 – User Experience CHOOSE ONE  
+1.	On a scale from 1–10, how would you rate the overall user experience of the Prototype? (1–10)
+2.	Which feature(s) impressed you the most, and why? (Typed Answer)
+3.	Which feature(s) impressed you the least, and why? (Typed Answer)
+4.	Was it easy to locate the information you were looking for? (Yes/No)
+5.	Did the website adjust properly to your device’s screen size? (Yes/No)
+6.	Was the Prototype stable during your interaction? (Yes/No)
+7.	Do you have any suggestions to improve the user experience? (Typed Answer)
+________________________________________
+Section 2 – User Interface
+8.	Was the navigation bar easy to use? (Yes/No)
+9.	On a scale from 1–10, how would you rate the overall User Interface? (1–10)
+10.	Was the font legible throughout the Prototype? (Yes/No)
+11.	Were buttons and interactive elements easy to recognize and responsive? (Yes/No)
+12.	How would you describe the colour scheme and its impact on readability? (Typed Answer)
+13.	Any additional suggestions regarding the User Interface? (Typed Answer)
+________________________________________
+Section 3 – Home Page
+14.	On a scale from 1–10, how would you rate the Home Page? (1–10)
+15.	Was it helpful to see the company's contact information in the footer? (Yes/No)
+16.	What improvements would you suggest for the Home Page? (Typed Answer)
+________________________________________
+
+Section 4 – Appointments Page
+17.	On a scale from 1–10, how would you rate the Appointments Page? (1–10)
+18.	Was the purpose of the page clear? (Yes/No)
+19.	Was the appointment form easy to fill out? (Yes/No)
+20.	Were error alerts helpful when filling out the form? (Yes/No)
+21.	Was it useful being able to view and delete appointments in the list? (Yes/No)
+22.	What improvements would you suggest for the Appointments Page? (Typed Answer)
+________________________________________
+Section 5 – Products Page
+23.	On a scale from 1–10, how would you rate the Products Page? (1–10)
+24.	Were article topics relevant to the Products Page? (Yes/No)
+25.	Was it easy to find and read the articles? (Yes/No)
+26.	Were additional links helpful? (Yes/No)
+27.	What improvements would you suggest for the Products Page? (Typed Answer)
+________________________________________
+Section 6 – Login/Register Pages
+28.	On a scale from 1–10, how would you rate the Login and Register Pages? (1–10)
+29.	Was it clear what information was required when registering? (Yes/No)
+30.	Were the error alerts helpful during registration and login? (Yes/No)
+31.	Any improvements you would suggest for the Login/Register experience? (Typed Answer)
+________________________________________
+Section 7 – Account Page
+32.	On a scale from 1–10, how would you rate the Account Page? (1–10)
+33.	On a scale from 1–10, how would you rate the Energy Tracker feature? (1–10)
+34.	On a scale from 1–10, how would you rate the Carbon Footprint Calculator? (1–10)
+35.	Did you find the accessibility options and logout feature helpful? (Yes/No)
+36.	Was it useful to see your email and username on the Account Page? (Yes/No)
+37.	What improvements would you suggest for the Account Page? (Typed Answer)
+________________________________________
+Section 8 – Advice Page
+38.	On a scale from 1–10, how would you rate the Advice Page and its helpfulness? (1–10)
+39.	Are the links and embedded video working and helpful? (Yes/No)
+40.	Any improvements you would suggest for the Advice Page? (Typed Answer)
+
+La intrebari adauga asta sus:
+This document displays all of the technical questions 
+It will take about minutes to complete
+It covers a range of ,…type of questions 
+
+
+
 
 
 
