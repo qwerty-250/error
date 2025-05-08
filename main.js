@@ -1,316 +1,63 @@
 
 function prop(){
   navigator.clipboard.writeText(`
-Prototype Demonstration, Feedback Plan,  Non-Technical Survey, Technical Survey,  Feedback Evaluation
-Task 3a: Feedback Plan
-Introduction
-For my feedback collection, I will be using two different surveys, one aimed at technical users (people with programming knowledge) and one aimed at non-technical users (general users).
-The advantage of this approach is that it allows me to gather two perspectives: feedback from regular users about usability and design, and more detailed technical feedback from programmers regarding functionality and code quality.
-Both surveys will cover similar topics regarding the web app's user experience and design, but the technical survey will include an additional section focused on the program's internal functionality, efficiency, and technical improvements.
-The technical respondents will also be given supervised access to the source code and the web app itself, so they can suggest improvements and highlight any issues more effectively.
-
-User Demonstrations
-To make sure all users understand how to use the web app properly, I will create a set of clear, simple demonstrations showing how to perform key actions.
-This is important because it ensures that all users know how to use the main features, leading to more accurate and useful feedback instead of confusion or misunderstandings.
-For example:
-How to login:
-1.Go to the "Account" page.
-2.Enter the requested data.
-3.Submit the data.
-4.You should be directed to your Account page.
-These demonstration materials will help users understand how the app works before completing the survey, improving the quality of their feedback.
+Prototype evaluation: 
+This document aims to demonstrate and evaluate how well does the Prototype developed for Rolsa Technology meets the requirements that were requested by them. Also, the content used, and the feedback gathered from the technical and non-technical surveys are considered.
+1.Effectiveness of the assets and content
+ 1.1 Assets Suitability:
+	During the development of the prototype a combination of placeholder text , embedded videos , links to external websites and also images were used in order to simulate how the final project will look in the future, or at least what to expect before the final draft.
+In the home page, I used a background image that contains a peaceful nature landscape, which aligns perfectly, in my opinion, with the companies’ interest in green energy products. In the advice page, I have used an external link which redirects the user to a page with tips and information for reducing the carbon footprint along with an appropriate video which can help the user to dig deeper into the subject and gain more knowledge on how to reduce their carbon footprint. In the advice page there are also some paragraphs which are meant to contain information on how the user can reduce their carbon footprint. For these helpful paragraphs I have used placeholder text so I can simulate how the potential final draft may look. Moving on, on the products page there are images for each product displayed on the page along with information about them and with two links which can redirect the user on a website which contains more green energy products, and another website that includes general information about green energy products. Furthermore, on the account page the only placeholder element is a temporary/general , unisex profile picture next to the personal information about the user. For now, this image is just a placeholder, but in the future an option to dynamically change it may be included to provide the user with a better experience.
+The content used is suitable and aligns within the requirements requested by Rolsa Technology. Nevertheless, even if there are some elements that are now represented by placeholders, and perhaps, look off or irrelevant to the Prototype , their purpose is just to simulate where the actual text and images are going to look or where they ll be positioned on the page.
 
 
+1.2. Validity of the sources used.
+	Each source that was used in order to gather different images , links or videos , was doubled checked to prevent  the use of the malicious ones and make sure the prototype will still be safe , fast and secure. Also, while looking for these different elements listed above , I made sure to include only the ones which are not protected by copyright and are free to use. By doing this, we are avoiding any legal issues that may rise. For example, if I was to pick an image for this prototype that was protected by copyright and decide to still use it in in the final form of the project, the risk of getting entangled with legal issues that may result in financial damage is high, and of course no wanted in any shape or form. 
+When looking out for images, websites or videos, I was trying to use trustworthy sources such as “Unsplah”, which is a popular website that provides high quality images that are copyright free. Moving on, when I was looking for videos, I mainly used “YouTube” and checked their description to make sure that it was not protected by copyright. Moreover, if I couldn’t find a specific image on Unsplah or any other websites of this kind, I went on Google, and used the advanced search and filter out the images  that were not copyright free. Nevertheless, before choosing the external websites, I made sure they are trustworthy by reading reviews, checking their trustpilot score if available and overall inspecting them manually for any kind of element that may rise suspicion or unprofessionalism , such as inconsistent design layout , or invalid links and images. 
+Also , I made sure these assets are relevant to the page that are going to be used in. 
 
-Questionnaires
-The surveys will be created using Microsoft Forms because it is a simple, efficient tool that offers useful features for creating forms, like branching questions and automatic graphs.
-The survey will be divided into two versions:
-Non-Technical User Survey: focusing on UI, UX, and the functionality of each page.
-Technical User Survey: covering the same as the Non-Technical but also deeper technical aspects such as code quality, variable naming, structure, and error handling.
-Both surveys will collect quantitative and qualitative feedback.
-Respondents
-The respondents will not need to provide personal information such as their name or email.
-This helps build trust and encourages more honest responses. (expand this section)
-Technical Section
-The technical version of the survey will include specific questions about the functionality, efficiency, and readability of the code.
-Examples of technical questions include:
-Were the naming conventions (variables, functions) clear and easy to understand?
-Were there any technical errors? If yes, what were they?
-How could the code be improved for better scalability or readability?
-Supervised access to the project and its source code will be given to technical users to help them provide more detailed feedback. 
-Stages (expand stages just a bit)
-Stage 1: Create instruction documents (user demonstrations) to guide users through the main functions of the web app.
-Stage 2: Create two Microsoft Forms surveys (one for technical users, one for non-technical users).
-Stage 3: Collect feedback using the surveys, gathering both quantitative and qualitative data. 
-Stage 4: Analyze the feedback, summarize it in a Word document using graphs (for quantitative data) and written evaluation (for qualitative insights).
-Stage 5: Use the findings to plan and document future improvements to the web app.
-Question Structure
-The survey questions will be organized based on the different sections or pages of the web app. 
--UI Questions (Accessibility, Readability, Design Aesthetics)
--UX Questions (Navigation, Functionality, User Satisfaction)
--Account page
--Advice page
--Login and Registration page
--Appointments page
--Products page
--TECHNICAL Section for technical users 
-Example of a question structure:
-UX Question:
-On a scale from 1 to 10, how easy was it to navigate to the Weather page?
-For the technical survey, additional questions like:
-Were you able to understand the purpose of the functions by reading their names?
-Did the comments in the code help you understand the structure?
-Outcome
-Through obtaining input from both technical and non-technical users, I will be able to pinpoint a variety of enhancements, ranging from improving the user interface and user experience to streamlining the functionality and underlying code structure. This two-pronged feedback strategy will guarantee that the web application is thoroughly assessed from the viewpoints of both developers and users, enabling me to make informed, focused changes that address both technical quality and usability. The outcomes of this feedback procedure will be crucial for improving the project's final draft.
+1.3 Legal Implications
+	During the development, I tried to make the Prototype so it will adhere to laws, legislations and regulations such as the GDPR or the Data protection act, to keep the user’s data safe and secure.  These are the methods used:
+	-Password hashing, this refers to the process of converting the initial password into a random combination of strings, numbers and special characters when saving it into the database. By doing this we enhance the layer of security, due to the fact that is way harder for any kind of person with malicious intent to break the password since it is unreadable and lengthy. 
+	-Hiding the password input. When the user has to input his password , either in the login or registration form , the input field hides the password in order to keep it safe and reduce the risk of shoulder surfing for example.
 
+-Cleaning inputs. Cleaning the inputs refers to the process of using complex algorithms that prevent SQL injections that can affect the security and safety of the data. For example, when completing an input field, let’s say the username one, a malicious user can actually write malicious SQL code in order to retrieve sensitive data which again, is extremely dangerous. This is where ,the process of cleansing the inputs comes into play because it blocks this ability of writing malicious code into the inputs fields/boxes. 
+-Cookie simulation. A cookie pop up , which for now is not functional , is made in order to simulate how the cookie function is actually  going to work in the future stages of the project.
 
+While security was a very important part during the development, this prototype does not contain terms and conditions. I decided it is not that important to include a policy for terms and conditions for now and focus on the more general security aspects and the functionalities required.
+Ethical implications:
+During the development, a wider range of users were considered, for example users that may suffer from different disabilities (eye impairments for example) , or users that are accessing the prototype from a different device compared to a PC (for examples phones or tablets). To accommodate them I included the following features and functionalities:
+-	Accesibility features: First, is the dark mode which can be accessed in the navbar by simply toggling to on and off. When it’s one the color scheme of the website converts into a darker one with higher contrasts which makes the content more easy to read for different people with eye impairments, or simply people who are not able to sustain bright colors and lights. When it’s off, it comes back to the default, light version. Secondly, are the font adjuster buttons that are available on the account page. To use this feature, you can choose whether you’d like to increase or decrease the font size by pressing the representative button. Nevertheless, every image contains alt text which refers to a brief explanation of that image that can be used with a text to speech bot in order to help people that may suffer from blindness understand the image and also help regular users understand what was that image about if it’s not available anymore.
+-	Responsive design. When the screen’s width gets smaller, (phones , or tables), the design of the website changes so it can fit the respective screen dimension. Moreover, the navbar will contain a hamburger menu that can be toggled on and off. When it’s on you can see the buttons that redirects the users to the different pages.
+2. Evaluation of project outcomes: 
+2.1 Evaluation of my prototype: 
+Ultimately, I believe that the prototype I have produced meets the requirements set by Rolsa Technologies. Some elements, not a lot , were a bit different in the end compared to how I explained them in the proposal, but in the end they still achieve the same goals.
+Function Requirements:
+Down below you will be able to see every functional requirement detailed , and how I was able to achieve it.
+1.	Advice page: For the advice page I have simply created a layout made up by a couple of elements that will store advice on how to reduce the carbon footprint , and also a link to an external website which provides even more information, and also an embedded video which can also help the user visualize and get a deeper understanding of the subject.
+2.	Appointment booking. On the appointment page , I have created an appointment page that contains an appointment form , where the user has to input all of the data needed , such as appointment title, phone number or location and then submit it. After submission the appointment will appear in the appointment list in the right hand side of the screen , and also saved in the data base.
+3.	Green energy products. I feel like this requirement is subjective , and very easy to interpreted different by a lot of people. The way I interpreted and built it , was to gather top 6 most popular green energy products on the market right now , and display them on the page along with information about them. Also I have used two links , one who redirects the user to a website with a lot of information about green energy products , and another one which redirects the user to a website with  different green energy products compared to the ones that were displayed on the page , for more diversity and the freedom of exploring more products in this field
+… bla bla
+Non function requirements:
+Security: I have implemented password hashing,password strength checker and ,input cleansing in order to enhance the layer of security
+Scalibility: The website’s design is responsive and it applies to a wider range of devices such as , phones, tablets, laptops etc
+Accesibility 
+User acceptance criteria:
+In the proposal I have simulated some user experiences/stories to help with developing the prototype. These experiences are simply different actions that the users are going to do while using the prototype. Every single user experience simulation helped in developing a prototype which provides a modern user experience, and it meets the standards.
+User experience story 1. Concerned about creating an account , which the I have successfully implemented in the prototype.
+User experience story 2. Concerned about how to use the carbon footprint calculator. This function have been successfully implemented in the Prototype. I also added some meaningful examples ,so the user will be able to understand better how the calculator works.
 
-MAYBE ADD SOME IMAGES TO THE GUIDE
-Introduction
-This document will guide you through how to use each page of the Rolsa Technologies web app in preparation for completing the feedback questionnaire. Please follow the instructions carefully so that you can experience all the features properly. By doing so, you’ll help provide more accurate and useful feedback later.
-________________________________________
-Home Page
-The Home Page is the first page you see when you open the website. It provides a brief introduction to Rolsa Technologies. On this page, you’ll see a representative image that symbolizes the company’s focus on green energy. There is also a "Learn More" link that will redirect you to another page with more detailed information about Rolsa Technologies. Additionally, a footer at the bottom of the page contains the company’s contact information. Please take a moment to look around the page and click the "Learn More" link to see where it leads.
-________________________________________
-Advice Page
-The Advice Page is designed to offer useful tips and suggestions on how to reduce your carbon footprint. On this page, you will find several paragraphs outlining practical actions you can take to reduce your environmental impact. Additionally, there is a link that will redirect you to another page with even more information on how to further reduce your carbon footprint. You will also find a video embedded on the page, which will take you to a video with additional guidance on sustainability and green energy practices. Please explore the tips, follow the link to the further reduction guide, and watch the video to gain a more comprehensive understanding of carbon footprint reduction strategies.
-________________________________________
-Appointments Page
-The Appointments Page allows users to schedule an appointment by filling out a simple form. This form asks for basic information such as your name, date, and reason for the appointment. Once you submit the form, the appointment will be added to a list that appears on the right-hand side of the screen. Here, you can view all your scheduled appointments. If you no longer need an appointment, you can delete it by clicking the trash can icon next to it. Please try submitting a test appointment and see how it appears on the right-hand side of the screen. If the appointment is no longer needed, try deleting it. Note: You must be logged in to access this page.
-________________________________________
-Products Page
-The Products Page showcases several green energy products that are available. Here, you will find popular green energy products, each accompanied by a brief description. There is also a link that will take you to an external website with even more information about green energy products. Please explore the products listed on this page and click the external link to learn more.
-________________________________________
-Account Page
-The Account Page provides personal information and useful tools. Upon visiting this page, you will see your username and email to confirm you are logged into the correct account. Additionally, there is an Energy Tracker form where you can record your daily energy usage in KWH, with examples to help you fill it out. There is also a Carbon Footprint Calculator that allows you to calculate your carbon footprint, and like the Energy Tracker, it includes helpful examples.
-At the bottom of the page, you will find three important buttons: one to increase the font size, one to decrease it, and a Log Out button. The font size buttons allow you to adjust the website’s text for easier reading. Additionally, there is a link to the Advice Page where you can view helpful tips on reducing your carbon footprint. On this page, you will find various suggestions to make your daily activities more eco-friendly. There is also a link to an external page with additional information on how to reduce your carbon footprint and live more sustainably. Lastly, you will find a video on the page that offers further guidance on how to reduce your environmental impact. Please explore these links and video to learn more about reducing your carbon footprint.
-________________________________________
-Navigation Bar (Navbar)
-At the top of the website, there is a Navigation Bar (navbar) available on every page. This navbar contains a clickable Rolsa Technologies logo, which will bring you back to the Home Page. It also includes links to the Home, Advice, Appointments, Products, and Account pages. Additionally, there is a Dark Mode button, which you can click to change the website's appearance to a darker color scheme. This theme will apply across all pages on the website. Please click through the navbar links to explore different pages and try the Dark Mode button.
-________________________________________
-Registration and Login Pages
-To fully access features like appointments and the account page, you must be logged in. If you don’t have an account, go to the Registration page and fill out the form carefully. If you make any mistakes, an alert will pop up explaining what needs to be fixed. After registering, go to the Login page, enter your details, and log in. Again, if there’s an error, an alert will pop up telling you what went wrong. Once logged in, you will be able to access the Appointments and Account pages. Please make sure you are logged in so that you can use all of the website's features.
+User experience story 3. Concerned about making an appointment. This final simulation I have used , again was successfully implemented in the Prototype allowing the users to simply book appointments and provide a lot of meaningful information about it.
+
+Future improvements.
+Regarding the future improvements, they are plenty and in order to understand what needs to be improved in the first place I have used different tools and methods. One of the most obvious methods , was to use a feedback gathering platform , like Microsoft Forms where I was able to create two different surveys, one technical  and another one, non-technical. Both sides helped me a lot , in understanding what needs and what can be improved in the future development stages of the project. Besides the feedback gathered, I am also self-aware of what improvements can be made since I have focused more on the main functionalities and the main aspects for security. 
+The first and the most obvious improvement that comes to my mind is the design. A clean, eye-catching design, filled with animation and all sort of transitions makes a website instantly more recognizable. A website  that feels smooth , looks clean and moves fast , is hard to forget. In this prototype , I went for more of a old-school, simple yet effective design rather then a modern one. I focused on the design’s responsiveness and readability rather than adding a lot of transitions or animations. This aspect can be improved in the future and will definitely help a lot in brining or making more people to stay on the website.
+Another improvement, is regarding the security aspect. While I made sure to implement authentication system which is safe and secure , it still can be improved by using a more modern approach. The approach is called JWT token authentication , where the user receives a unique token that is saved in the local storage every single time where he logs in. By doing this , we are removing the need of keeping up a session and simply store the data in a unique token for the users since these tokens are stateless. (this improvement was suggested by a technical respondent) 
 
 
 
 
-Demo 
-This document visualises the answers to the questionnaires, and details what can be taken from the responses that users gave. The purpose of this is to understand what worked and didn’t work with the prototype, to help later evaluate the solution that has been developed. This is a link to the original Microsoft Forms Survey, where all the answers can be shown:
----
----
-Table of contents:
----
-
-Notes:
-I have made new charts and graphs (example: pie charts that contain all of the answers from both surveys on that specific question) to combine the responses from the technical and non-technical surveys, even though Microsoft Forms provides for the construction of its own. Responses that are identical have been grouped to save time and space. Nevertheless, I feel like this approach provides more insight and more meaningful data then the charts from Microsoft Forms that can be a bit vague for specific kind of questions.
-(correct this gram and logic)
 
 
-Add somewhere the questions of how could you improve and actually add it to the table of contents;
-Some observations notes , for each respondendt:
-de tipu 
-Respondent whatever
-Pain points~ Description
-The issue area-the description of his feedback
-
-Conclusion about observations:
-Conclusion:
-Explain each page section mentioned in the feedback form , and explain the feedback you got back from it 
-
-----------------------------------------------------------------------------------------------------------------------------------
-                                                                           -------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------
-
-
-ALSO MAYHBE CHANGE THE TYPE OF QUESTIONS SOMEWHERE
-Section 1 – User Experience 
-1.	On a scale from 1–10, how would you rate the overall user experience of the Prototype?
-(1–10)
-2.	Was it easy to locate the information you were looking for?
-(Yes/No)
-3.	Did the website properly adjust to your device’s screen size?
-(Yes/No)
-4.	Was the Prototype stable during your interactions?
-(Yes/No)
-5.	Do you have any suggestions or feedback regarding the points listed above?
-(Typed Answer)
-________________________________________
-Section 2 – User Interface
-8.	Did you find the navigation bar easy to use?
-(Yes/No)
-9.	Overall, how would you rate the User Interface of the Prototype?
-(1–10)
-10.	Was the font readable throughout the Prototype?
-(Yes/No)
-11.	Were the buttons and interactive elements easy to recognize and responsive?
-(Yes/No)
-12.	Any other suggestions regarding the User Interface?
-(Typed Answer)
-________________________________________
-
-
-
-
-Section 3 – Home Page
-14.	On a scale from 1–10, how would you rate the Home Page?
-(1–10)
-15.	Was it helpful to see the company's contact information in the footer?
-(Yes/No)
-16.	What improvements, if any, would you suggest for the Home Page?
-(Typed Answer)
-________________________________________
-Section 4 – Appointments Page
-17.	On a scale from 1–10, how would you rate the Appointments Page?
-(1–10)
-18.	Does the design clearly communicate the purpose of the page?
-(Yes/No)
-19.	Were the appointment form and list easy to understand and use?
-(Yes/No)
-20.	Were the error alerts helpful when filling out the appointment form?
-(Yes/No)
-21.	Was it useful being able to view and delete appointments in the list?
-(Yes/No)
-22.	What improvements, if any, would you suggest for the Appointments Page?
-(Typed Answer)
-________________________________________
-Section 5 – Products Page
-23.	On a scale from 1–10, how would you rate the Products Page?
-(1–10)
-24.	Were the article topics relevant to the Products Page?
-(Yes/No)
-25.	Did you find the additional links provided helpful?
-(Yes/No)
-26.	What improvements, if any, would you suggest for the Products Page?
-(Typed Answer)
-________________________________________
-Section 6 – Login/Register Pages
-28.	On a scale from 1–10, how would you rate the Login Page?
-(1–10)
-29.	On a scale from 1–10, how would you rate the Register Page?
-(1–10)
-30.	When registering or logging in, was it clear which details you needed to enter?
-(Yes/No)
-31.	Were the error alerts helpful during registration or login?
-(Yes/No)
-32.	What improvements, if any, would you suggest for the Login and Register Pages?
-(Typed Answer)
-________________________________________
-Section 7 – Account Page
-33.	On a scale from 1–10, how would you rate the Account Page?
-(1–10)
-34.	On a scale from 1–10, how would you rate the Energy Tracker feature?
-(1–10)
-35.	On a scale from 1–10, how would you rate the Carbon Footprint Calculator feature?
-(1–10)
-36.	Did you find the accessibility options and the logout feature helpful?
-(Yes/No)
-37.	Did you find the information from the Carbon Footprint Calculator and Energy Tracker helpful?
-(Yes/No)
-38.	What improvements, if any, would you suggest for the Account Page?
-(Typed Answer)
-________________________________________
-Section 8 – Advice Page
-40.	On a scale from 1–10, how would you rate the Advice Page?
-(1–10)
-41.	Do you think users will find the information on the Advice Page helpful once fully completed?
-(Yes/No)
-42.	Are the link and embedded video working correctly and helpful?
-(Multiple Choice)
-43.	What improvements, if any, would you suggest for the Advice Page?
-(Typed Answer)
-________________________________________
-Section 9 – Technical Questions (Technical Review Only)
-45.	On a scale from 1–10, how would you rate the quality of the code commenting?
-(1–10)
-46.	Based on the comments, could a user understand what each section of the code does?
-(Yes/No)
-47.	On a scale from 1–10, how would you rate the security measures for handling user data?
-(1–10)
-48.	What improvements would you suggest for the security features, if any?
-(Typed Answer)
-49.	How would you rate the validation rules for the Register Page?
-(1–10)
-50.	How would you rate the validation rules for the Login Page?
-(1–10)
-51.	How would you rate the validation rules of the Register Form?
-(1–10)
-52.	If multiple programmers were working on this project, do you think the code is structured clearly enough for others to understand?
-(Yes/No)
-53.	Do you think the way the database is set up and the data added are efficient enough for a prototype?
-(Yes/No)
-54.	Is the codebase scalable from the point it’s currently at, or would it need major changes to scale to a larger project?
-(Typed Answer)
-55.	Do you think the programming languages and technologies used are sufficient for scaling? Or would you suggest using different frameworks or technologies?
-(Typed Answer)
-56.	Are there any validation rules you think are missing?
-(Typed Answer)
-57.	Are the naming conventions used appropriate?
-(yes/no)
-58.	Finally, is there anything else you would add or suggest for improving the project overall?
-(Typed Answer)
-
-
-Section 1 – User Experience CHOOSE ONE  
-1.	On a scale from 1–10, how would you rate the overall user experience of the Prototype? (1–10)
-2.	Which feature(s) impressed you the most, and why? (Typed Answer)
-3.	Which feature(s) impressed you the least, and why? (Typed Answer)
-4.	Was it easy to locate the information you were looking for? (Yes/No)
-5.	Did the website adjust properly to your device’s screen size? (Yes/No)
-6.	Was the Prototype stable during your interaction? (Yes/No)
-7.	Do you have any suggestions to improve the user experience? (Typed Answer)
-________________________________________
-Section 2 – User Interface
-8.	Was the navigation bar easy to use? (Yes/No)
-9.	On a scale from 1–10, how would you rate the overall User Interface? (1–10)
-10.	Was the font legible throughout the Prototype? (Yes/No)
-11.	Were buttons and interactive elements easy to recognize and responsive? (Yes/No)
-12.	How would you describe the colour scheme and its impact on readability? (Typed Answer)
-13.	Any additional suggestions regarding the User Interface? (Typed Answer)
-________________________________________
-Section 3 – Home Page
-14.	On a scale from 1–10, how would you rate the Home Page? (1–10)
-15.	Was it helpful to see the company's contact information in the footer? (Yes/No)
-16.	What improvements would you suggest for the Home Page? (Typed Answer)
-________________________________________
-
-Section 4 – Appointments Page
-17.	On a scale from 1–10, how would you rate the Appointments Page? (1–10)
-18.	Was the purpose of the page clear? (Yes/No)
-19.	Was the appointment form easy to fill out? (Yes/No)
-20.	Were error alerts helpful when filling out the form? (Yes/No)
-21.	Was it useful being able to view and delete appointments in the list? (Yes/No)
-22.	What improvements would you suggest for the Appointments Page? (Typed Answer)
-________________________________________
-Section 5 – Products Page
-23.	On a scale from 1–10, how would you rate the Products Page? (1–10)
-24.	Were article topics relevant to the Products Page? (Yes/No)
-25.	Was it easy to find and read the articles? (Yes/No)
-26.	Were additional links helpful? (Yes/No)
-27.	What improvements would you suggest for the Products Page? (Typed Answer)
-________________________________________
-Section 6 – Login/Register Pages
-28.	On a scale from 1–10, how would you rate the Login and Register Pages? (1–10)
-29.	Was it clear what information was required when registering? (Yes/No)
-30.	Were the error alerts helpful during registration and login? (Yes/No)
-31.	Any improvements you would suggest for the Login/Register experience? (Typed Answer)
-________________________________________
-Section 7 – Account Page
-32.	On a scale from 1–10, how would you rate the Account Page? (1–10)
-33.	On a scale from 1–10, how would you rate the Energy Tracker feature? (1–10)
-34.	On a scale from 1–10, how would you rate the Carbon Footprint Calculator? (1–10)
-35.	Did you find the accessibility options and logout feature helpful? (Yes/No)
-36.	Was it useful to see your email and username on the Account Page? (Yes/No)
-37.	What improvements would you suggest for the Account Page? (Typed Answer)
-________________________________________
-Section 8 – Advice Page
-38.	On a scale from 1–10, how would you rate the Advice Page and its helpfulness? (1–10)
-39.	Are the links and embedded video working and helpful? (Yes/No)
-40.	Any improvements you would suggest for the Advice Page? (Typed Answer)
-
-La intrebari adauga asta sus:
-This document displays all of the technical questions 
-It will take about minutes to complete
-It covers a range of ,…type of questions 
 
 
 
